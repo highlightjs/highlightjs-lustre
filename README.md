@@ -33,8 +33,3 @@ hljs.initHighlightingOnLoad();
 
 This is a pretty simple package, the only thing you might want to do differently is name the language something other than `lustre`. If you want to do this, simply `import { definer } from 'highlightjs-lustre';` and use it like: `hljs.registerLanguage('othername', definer);`.
 
-### About the author
-
-Find me at http://pospi.spadgos.com
-
-Tip me some ether? (; `0x52c04Bf91ebB58221A4ac65967e4CDa15a871eba`
