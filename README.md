@@ -2,7 +2,8 @@
 
 For more about highlight.js, see https://highlightjs.org/
 
-For more about Lustre, see http://lustre.readthedocs.io/
+For more about Lustre and reactive languages, see
+http://www-verimag.imag.fr/DIST-TOOLS/SYNCHRONE/reactive-toolbox/
 
 ### Usage
 
