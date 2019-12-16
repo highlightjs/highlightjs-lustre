@@ -1,52 +1,31 @@
 {
-  "name": "highlight.js",
-  "description": "Syntax highlighting with language autodetection.",
-  "keywords": [
-    "highlight",
-    "syntax"
-  ],
-  "homepage": "https://highlightjs.org/",
-  "version": "9.17.0",
-  "author": {
-    "name": "Ivan Sagalaev",
-    "email": "maniac@softwaremaniacs.org"
+  "name": "highlightjs-lustre",
+  "version": "1.0.9",
+  "description": "highlight.js syntax definition for Lustre language",
+  "main": "lustre.js",
+  "files": [],
+  "scripts": {
+    "test": "mocha"
   },
-  "contributors": [],
-  "bugs": {
-    "url": "https://github.com/highlightjs/highlight.js/issues"
-  },
-  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/highlightjs/highlight.js.git"
+    "url": "git+ssh://git@github.com/pospi/highlightjs-lustre.git"
   },
-  "main": "./lib/index.js",
-  "scripts": {
-    "mocha": "mocha",
-    "test": "mocha --globals document test",
-    "test-browser": "mocha --globals document test/browser"
+  "keywords": [
+    "Lustre",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "jahierwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pospi/highlightjs-lustre/issues"
   },
-  "engines": {
-    "node": "*"
-  },
+  "homepage": "https://github.com/pospi/highlightjs-lustre#readme",
   "devDependencies": {
-    "bluebird": "^3.5.5",
-    "cli-table": "^0.3.1",
-    "colors": "^1.1.2",
-    "commander": "^4.0.0",
-    "del": "^5.1.0",
-    "gear": "github:highlightjs/gear",
-    "gear-lib": "github:highlightjs/gear-lib",
-    "glob": "^7.1.4",
-    "handlebars": "^4.5.3",
-    "js-beautify": "^1.10.2",
-    "jsdom": "^15.1.1",
-    "lodash": "^4.17.15",
-    "mocha": "^6.2.0",
-    "rollup": "^1.27.8",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "should": "^13.2.3",
-    "tiny-worker": "^2.3.0"
-  },
-  "dependencies": {}
+    "highlightjs": "^9.12.0",
+    "mocha": "^6.2.1",
+    "parse5": "^5.1.0"
+  }
 }
