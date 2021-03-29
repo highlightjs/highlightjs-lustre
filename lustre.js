@@ -9,6 +9,7 @@ function(hljs) {
   return {
     aliases: ['lus'],
     keywords: {
+      $pattern: '[a-z_]\\w*!?',
       keyword:
         'extern unsafe assert const current enum function ' +
         'let tel|10 node|10 operator returns|10 ' +
@@ -22,7 +23,6 @@ function(hljs) {
         'true false'
     },
     illegal: '^/\/\*/|\\$[A-Za-z_]|\\{\\}|[+-]=',
-    lexemes: '[a-z_]\\w*!?',
     contains: [
       hljs.COMMENT(
         '\\(\\*',
