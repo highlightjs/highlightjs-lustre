@@ -16,7 +16,7 @@ If you're not using a build system and just want to embed this in your webpage:
 <script type="text/javascript" src="/path/to/highlightjs-lustre/lustre.js"></script>
 <script type="text/javascript">
     hljs.registerLanguage('lustre', window.hljsDefineLustre);
-    hljs.initHighlightingOnLoad();
+    hljs.highlightAll();
 </script>
 ```
 
@@ -27,7 +27,7 @@ var hljs = require('highlightjs');
 var hljsDefineLustre = require('highlightjs-lustre');
 
 hljsDefineLustre(hljs);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 ### Advanced
